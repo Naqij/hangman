@@ -1,12 +1,11 @@
 import random
 from words import words_list
 
-def get_word(words_list):
+def hangman():
+    
+def get_word(words):
     word = random.choice(words_list)
-    while '_' in word or ' ' in word:
-        word = random.choice(words_list)
-
-    return word
+    print(word)
 
 def print_hangman(wrong):
     if(wrong == 0):
@@ -72,3 +71,7 @@ def print_hangman(wrong):
         print("   |    / \ ")
         print("   |")
         print("  ---")
+
+name = input("Enter your name please >> ")
+
+hangman()
