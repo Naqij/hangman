@@ -42,4 +42,22 @@ I have created this project to challenge my knowledge about the English words an
 * As a user I would want to know the length of the word.
 * As a user I want to know if I have already used the word that I have typed in.
 
+## Owner Goals
+* I have used online word library to choose random word so the user have more options in words.
+* Increase the number of visiters.
+* Increase rankings on search engines.
+
+### Requirements
+* Easy to navigate on various screen sizes.
+* Keep the user interested with information to make them want to engage with the Hangman game.
+* More words choice for user to guess.
+
+### Expectations
+* I expect screen size not to affect the quality of the Hangman game.
+* I expect user is informed on every step that how many lives they are left with and what letters they have already guessed.
+
+## Design Choices
+* I have designed every step for hangman to be printed if wrong alphabet is typed.
+* I have also designed a celebration hangman if user has guessed the word correctly.
+
 
