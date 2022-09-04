@@ -60,4 +60,15 @@ I have created this project to challenge my knowledge about the English words an
 * I have designed every step for hangman to be printed if wrong alphabet is typed.
 * I have also designed a celebration hangman if user has guessed the word correctly.
 
+# Wireframes
+I have manually drew the hangman and steps to complete this project so when I'm working on the codes I have better idea about the game and I can complete the game correcly and efficiently.
 
+![Wireframe](assets/images/wireframes/main-quiz.jpg)
+
+![Wireframe](assets/images/wireframes/scoreboard.jpg)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
