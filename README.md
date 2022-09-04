@@ -30,3 +30,16 @@ I have created this project to challenge my knowledge about the English words an
     * [Credits](#credits)
 
 # UX
+
+## User Goals
+* User can type their name before starting the game.
+* Gives enough lives to guess the word.
+* Let the user know how many letters are in the word.
+
+## User Inputs
+* User can type their name before starting the game so it feels more personal.
+* As a user I want to be asked to guess as random words as possible so I can challenge my self.
+* As a user I would want to know the length of the word.
+* As a user I want to know if I have already used the word that I have typed in.
+
+
