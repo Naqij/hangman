@@ -24,7 +24,6 @@ I have created this project to challenge my knowledge about the English words an
         * [Languages that I used](#languages-that-i-used)
         * [Tools](#tools)
     * [Testing](#testing)
-        * [Responsiveness](#responsiveness)
         * [Validation](#validation)
     
     * [Credits](#credits)
@@ -72,3 +71,80 @@ I have manually drew the hangman and steps to complete this project so when I'm 
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Features
+
+## Existing Features
+
+   ### Main openning 
+
++ The game openning will ask the player for their name and then welcome the player with their name.
+
+    ![Welcome Page](images/webpage/welcome-page.PNG)
+
+### Game Start
+
++ The game starts with letting the player know how many letters are in the word.
+
+    ![Quiz Page](images/webpage/quiz.PNG)
+
+## Unfixed Bugs
+
+There are no unfixed bugs.
+
+# Languages and Websites used
+
+## Language that I have used
+* [Python](https://www.python.org/ "Python")
+
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+
+## Validation
+
+I have validated my project using [W3C Validator](https://www.w3.org/ "HTML and CSS") to validate my Python codes.
+
+Below is the validation screenshot.
+
+![Python](images/validation/HTML-CSS-Validate.jpg)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Formation
+
+Following writing the code then commiting and pushing to GitHub, this project was formed using GitHub by the following steps.
+
++ Navigate to the repository on github and click 'Settings'.
++ Then select 'Pages' on the side navigation.
++ Select the 'None' dropdown, and then click 'master'.
++ Click on the 'Save' button.
++ Now the website is live on [https://naqij.github.io/Macrame-Quiz/]
++ If any changes are required or made they can be done by committing and push to GitHub and the changes will be updated.
+
+# Credits
+
+I would like to thanks.
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+And **Kenan Wright**
+
+For code insperation, help, advice and encouragment.
+
+&nbsp;
+
+For code inspirations I went through my notes that I took throughout the course and also I checked out few Youtube videos to understand them better and use them correctly.
+
+I have also looked into a youtube video [https://www.youtube.com/watch?v=8ext9G7xspg&list=WL&index=3&t=2152s&ab_channel=freeCodeCamp.org] for code insperation and to see which way the code will react better.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+
