@@ -2,8 +2,8 @@ import random
 from words import word_list
 
 #This section is to let player add their name
-name = input("ENTER YOUR NAME >> ").upper()
-print("WELCOME", name, "LETS PLAY HANGMAN...")
+#name = input("ENTER YOUR NAME >> ").upper()
+#print("WELCOME", name, "LETS PLAY HANGMAN...")
 
 # This section will import a random word from words.py
 word = random.choice(word_list)
@@ -93,5 +93,10 @@ def hangman(tries):
 while True:
     user_guess = input("Guess a Letter: ").upper()
 
-    if current_guessed in word:
+    if user_guess in word:
         counter = 0
+        for x in word:
+            if x == user_guess:
+                correct[counter] = user_guess
+            counter += 1
+        update()
