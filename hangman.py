@@ -11,6 +11,8 @@ print("WELCOME", name, "LETS PLAY HANGMAN...")
 
 word = random.choice(word_list).upper()
 
+print("The word has", len(word), "letters")
+
 # These will collect number of correct, incorrect etc.
 correct = ['_'] * len(word)
 incorrect = []
