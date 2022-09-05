@@ -1,15 +1,16 @@
 import random
-from words import word_list
 
 #This section is to let player add their name
 #name = input("ENTER YOUR NAME >> ").upper()
 #print("WELCOME", name, "LETS PLAY HANGMAN...")
 
 # This section will import a random word from words.py
-word = random.choice(word_list)
+word_list = ["internet", "camera"]
+
+word = random.choice(word_list).upper()
 
 # These will collect number of correct, incorrect etc
-correct = []
+correct = ['_'] * len(word)
 incorrect = []
 letters_guessed = []
 current_guessed = 0
@@ -91,6 +92,7 @@ def hangman(tries):
 # While loop for hangman
 
 while True:
+
     user_guess = input("Guess a Letter: ").upper()
 
     if user_guess in word:
@@ -105,9 +107,13 @@ while True:
             incorrect.append(user_guess)
             hangman(len(incorrect))
             print("Letter guessed: ",(user_guess))
+        else:
+            print("YOU HAVE ALREADY GUESSED THAT")
+        print(incorrect)
     
     if len(incorrect) > 7:
         print("*GAME OVER*")
+        print("YOU'VE KILLED HIM... THE WORD WAS:", word,)
         break
     if '_' not in correct:
         print("HuRrAyYy!!! WELL DONE!")
