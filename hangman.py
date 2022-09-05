@@ -1,6 +1,10 @@
 import random
 from words import word_list
 
+#This section is to let player add their name
+name = input("ENTER YOUR NAME >> ").upper()
+print("WELCOME", name, "LETS PLAY HANGMAN...")
+
 # This section will import a random word from words.py
 word = random.choice(word_list)
 
