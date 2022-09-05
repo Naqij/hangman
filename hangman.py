@@ -84,4 +84,6 @@ def hangman(tries):
         print(" |  / \      ")
         print("===          ")
 
-
+while True:
+    user_guess = input("Guess a Letter: ").upper()
+    
