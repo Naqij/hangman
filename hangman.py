@@ -100,3 +100,8 @@ while True:
                 correct[counter] = user_guess
             counter += 1
         update()
+    else:
+        if user_guess not in correct:
+            correct.append(user_guess)
+            hangman(len(incorrect))
+            print("Letter guessed: ",(user_guess))
