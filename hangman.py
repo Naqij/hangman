@@ -101,7 +101,20 @@ while True:
             counter += 1
         update()
     else:
-        if user_guess not in correct:
-            correct.append(user_guess)
+        if user_guess not in incorrect:
+            incorrect.append(user_guess)
             hangman(len(incorrect))
             print("Letter guessed: ",(user_guess))
+    
+    if len(incorrect) > 7:
+        print("*GAME OVER*")
+        break
+    if '_' not in correct:
+        print("HuRrAyYy!!! WELL DONE!")
+        print("-+-----------")
+        print(" | *YOU SAVED*  ")
+        print(" |    *ME*   ")
+        print(" |    \O/    ")
+        print(" |     |     ")
+        print("===   / \    ")
+        break
