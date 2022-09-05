@@ -1,28 +1,31 @@
 import random
+from words import word_list
 
-#This section is to let player add their name
-#name = input("ENTER YOUR NAME >> ").upper()
-#print("WELCOME", name, "LETS PLAY HANGMAN...")
+# This section is to let player add their name
+name = input("ENTER YOUR NAME >> ").upper()
+print("WELCOME", name, "LETS PLAY HANGMAN...")
+
 
 # This section will import a random word from words.py
-word_list = ["internet", "camera"]
+
 
 word = random.choice(word_list).upper()
 
-# These will collect number of correct, incorrect etc
+# These will collect number of correct, incorrect etc.
 correct = ['_'] * len(word)
 incorrect = []
 letters_guessed = []
 current_guessed = 0
 
+
 def update():
     for x in correct:
-        print(x, end=' ')
+        print(x, end = ' ')
     print()
 
-update()
-
 # Hangman to be printed if wrong answers are given
+
+
 def hangman(tries):
     if (tries == 1):
         print("7 tries left")
@@ -109,17 +112,16 @@ while True:
             print("Letter guessed: ",(user_guess))
         else:
             print("YOU HAVE ALREADY GUESSED THAT")
-        print(incorrect)
-    
+        print(incorrect)    
     if len(incorrect) > 7:
-        print("*GAME OVER*")
+        print("GAME OVER")
         print("YOU'VE KILLED HIM... THE WORD WAS:", word,)
         break
     if '_' not in correct:
         print("HuRrAyYy!!! WELL DONE!")
         print("-+-----------")
-        print(" | *YOU SAVED*  ")
-        print(" |    *ME*   ")
+        print(" |  YOU SAVED  ")
+        print(" |     ME   ")
         print(" |    \O/    ")
         print(" |     |     ")
         print("===   / \    ")
