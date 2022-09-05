@@ -84,6 +84,10 @@ def hangman(tries):
         print(" |  / \      ")
         print("===          ")
 
+# While loop for hangman
+
 while True:
     user_guess = input("Guess a Letter: ").upper()
-    
+
+    if current_guessed in word:
+        counter = 0
