@@ -8,8 +8,9 @@ print("WELCOME", name, "LETS PLAY HANGMAN...")
 
 # This section will import a random word from words.py
 
-
 word = random.choice(word_list).upper()
+
+# Function to let player know how many letters are in the word
 
 print("The word has", len(word), "letters")
 
