@@ -3,7 +3,7 @@ from words import word_list
 
 # This section is to let player add their name
 name = input("ENTER YOUR NAME >> ").upper()
-print("WELCOME", name, "LETS PLAY HANGMAN...")
+print("\nWELCOME", name, "LETS PLAY HANGMAN...\n")
 
 
 # This section will import a random word from words.py
@@ -12,7 +12,7 @@ word = random.choice(word_list).upper()
 
 # Function to let player know how many letters are in the word
 
-print("The word has", len(word), "letters")
+print("The word has", len(word), "letters\n")
 
 # These will collect number of correct, incorrect etc.
 correct = ['_'] * len(word)
@@ -31,7 +31,7 @@ def update():
 
 def hangman(tries):
     if (tries == 1):
-        print("7 tries left")
+        print("\n7 tries left")
         print("-+-----------")
         print(" |    O      ")
         print(" |           ")
@@ -39,7 +39,7 @@ def hangman(tries):
         print("===          ")
 
     elif (tries == 2):
-        print("6 tries left")
+        print("\n6 tries left")
         print("-+-----------")
         print(" |   O       ")
         print(" |   |       ")
@@ -47,7 +47,7 @@ def hangman(tries):
         print("===          ")
       
     elif (tries == 3):
-        print("5 tries left")
+        print("\n5 tries left")
         print("-+-----------")
         print(" |   O       ")
         print(" |   |       ")
@@ -55,7 +55,7 @@ def hangman(tries):
         print("===          ")
       
     elif (tries == 4):
-        print("4 tries left")
+        print("\n4 tries left")
         print("-+-----------")
         print(" |   O       ")
         print(" |   |       ")
@@ -63,7 +63,7 @@ def hangman(tries):
         print("===          ")
 
     elif (tries == 5):
-        print("3 tries left")
+        print("\n3 tries left")
         print("-+-----------")
         print(" |  \O       ")
         print(" |   |       ")
@@ -71,7 +71,7 @@ def hangman(tries):
         print("===          ")
       
     elif (tries == 6):
-        print("2 tries left")
+        print("\n2 tries left")
         print("-+-----------")
         print(" |  \O/      ")
         print(" |   |       ")
@@ -79,7 +79,7 @@ def hangman(tries):
         print("===          ")
 
     elif (tries == 7):
-        print("1 try left")
+        print("\n1 try left")
         print("-+-----------")
         print(" |   |       ")
         print(" |  \O/      ")
@@ -88,14 +88,17 @@ def hangman(tries):
         print("===          ")
       
     elif (tries == 8):
-        print("-+---+-------")
-        print(" |   |       ")
-        print(" |   +O      ")
-        print(" | / | \     ")
-        print(" |  / \      ")
-        print("===          ")
+        print("\n-+---+-------")
+        print("   |   |       ")
+        print("   |   +O      ")
+        print("   | / | \     ")
+        print("   |  / \      ")
+        print("  ===          ")
+
 
 # While loop for hangman
+# Codes below will go around the entire 
+## code as many times as needed to complete the game
 
 while True:
 
@@ -112,20 +115,22 @@ while True:
         if user_guess not in incorrect:
             incorrect.append(user_guess)
             hangman(len(incorrect))
-            print("Letter guessed: ",(user_guess))
+            print("\nLetter guessed: ",(user_guess))
         else:
-            print("YOU HAVE ALREADY GUESSED THAT")
-        print(incorrect)    
+            print("\nYOU HAVE ALREADY GUESSED THAT")
+        print(incorrect)
+
     if len(incorrect) > 7:
-        print("GAME OVER")
-        print("YOU'VE KILLED HIM... THE WORD WAS:", word,)
+        print("\nGAME OVER")
+        print("YOU'VE KILLED HIM... THE WORD WAS:", word,"\n")
         break
+
     if '_' not in correct:
         print("HuRrAyYy!!! WELL DONE!")
-        print("-+-----------")
-        print(" |  YOU SAVED  ")
-        print(" |     ME   ")
-        print(" |    \O/    ")
-        print(" |     |     ")
-        print("===   / \    ")
+        print("\n-+-----------")
+        print("   |  YOU SAVED  ")
+        print("   |     ME    ")
+        print("   |    \O/    ")
+        print("   |     |     ")
+        print("  ===   / \    ")
         break
