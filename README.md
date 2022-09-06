@@ -115,11 +115,15 @@ There are no unfixed bugs.
 
 ## Validation
 
-I have validated my project using [W3C Validator](https://www.w3.org/ "HTML and CSS") to validate my Python codes.
+I have validated my project using [Python Checker](https://www.pythonchecker.com/ "Python Checker") to validate my Python codes.
 
 Below is the validation screenshot.
 
-![Python](images/validation/HTML-CSS-Validate.jpg)
+![Python](assets/images/validation.JPG)
+
++ I got 97% correct but there where few errors on the hangman (see below) I'm not sure what I need to do to get these fixed.
+
+![Errors](assets/images/validation-error.JPG)
 
 \
 &nbsp;
@@ -129,7 +133,9 @@ Below is the validation screenshot.
 
 # Formation
 
-Following writing the code then commiting and pushing to GitHub, this project was formed using GitHub by the following steps.
+Following writing the code then commiting and pushing to GitHub, this project was formed using GitHub and Heroku by the following steps.
+
+## GitHub
 
 + Navigate to the repository on github and click 'Settings'.
 + Then select 'Pages' on the side navigation.
@@ -137,6 +143,19 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Click on the 'Save' button.
 + Now the website is live on [https://hangman-one.herokuapp.com/]
 + If any changes are required or made they can be done by committing and push to GitHub and the changes will be updated.
+
+## Heroku
+
++ Open Heroku and click on "Create new app"
++ Add app name and choose origin and then click "Create app"
++ Click on the "settings"
++ Scroll down and click on the "Add buildpack" and select the language (make sure to choose Python first and then other language) click "Save changes"
++ Scroll back up and click on the "Deploy"
++ Connect to GitHub by clicking on the GitHub option.
++ Search for the project name and connect.
++ Once connected, scroll down and click on the "Deploy Branch" button.
++ Click on the "Open app" to view live app.
+
 
 # Credits
 
