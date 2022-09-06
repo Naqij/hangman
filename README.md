@@ -1,12 +1,10 @@
-![Logo](assets/images/logo.jpg)
-
 # Hangman
 
 # Goal for this Project
 Welcome to Hangman game.
 I have created this project to challenge my knowledge about the English words and have some fun at the same time.
 
-![Responsive Displays](images/webpage/responsiveness.PNG)
+![Responsive Displays](assets/images/responsiveness.JPG)
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -79,14 +77,28 @@ I have manually drew the hangman and steps to complete this project so when I'm 
    ### Main openning 
 
 + The game openning will ask the player for their name and then welcome the player with their name.
++ And then it will let the player know how many letters are in the word.
 
-    ![Welcome Page](images/webpage/welcome-page.PNG)
+    ![Welcome and Introduction](assets/images/welcome.JPG)
 
-### Game Start
+  ### Guessing the word
 
-+ The game starts with letting the player know how many letters are in the word.
+    ![Guessing the word](assets/images/letter-guess.JPG)
 
-    ![Quiz Page](images/webpage/quiz.PNG)
+  ### If letter is already guessed
+
+  + If the letter player has entered and it has already been tried "YOU HAVE ALREADY GUESSED THAT" will be printed.
+    ![If letter is already guessed](assets/images/already-guessed.JPG)
+
+  ### Lost the game
+
+  + If the player couldn't guess the word in the lives given then "GAME OVER, YOU'VE KILLED HIM... THE WORD WAS (WORD)" will be printed.
+    ![Lost the game](assets/images/you-lost.JPG)
+
+  ### Winning the game
+  
+  + If the player has guessed all the letters correctly, the Hangman and "YOU SAVED ME" will be printed.
+    ![Winning the game](assets/images/winning-moment.JPG)
 
 ## Unfixed Bugs
 
@@ -123,7 +135,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Then select 'Pages' on the side navigation.
 + Select the 'None' dropdown, and then click 'master'.
 + Click on the 'Save' button.
-+ Now the website is live on [https://naqij.github.io/Macrame-Quiz/]
++ Now the website is live on [https://hangman-one.herokuapp.com/]
 + If any changes are required or made they can be done by committing and push to GitHub and the changes will be updated.
 
 # Credits
