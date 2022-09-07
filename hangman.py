@@ -134,5 +134,5 @@ while True:
         print("   |    \O/    ")
         print("   |     |     ")
         print("  ===   / \    ")
-        print("The word is", word,)
+        print("The word is >>", word,)
         break
