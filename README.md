@@ -58,11 +58,15 @@ I have created this project to challenge my knowledge about the English words an
 * I have also designed a celebration hangman if user has guessed the word correctly.
 
 # Wireframes
-I have manually drew the hangman and steps to complete this project so when I'm working on the codes I have better idea about the game and I can complete the game correcly and efficiently.
+I have manually drew the hangman and steps to complete this project so when I'm working on the codes I will have better idea about the game and I can complete the game correcly and efficiently step by step.
 
-![Wireframe](assets/images/wireframes/main-quiz.jpg)
+### Understanding the Hangman
 
-![Wireframe](assets/images/wireframes/scoreboard.jpg)
+![Wireframe](assets/images/understanding-hangman.jpg)
+
+### Steps for creating the Hangman game
+
+![Wireframe](assets/images/steps-to-create-hangman.jpg)
 
 \
 &nbsp;
