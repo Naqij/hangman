@@ -88,7 +88,8 @@ def hangman(tries):
         print("===          ")
       
     elif (tries == 8):
-        print("\n-+---+-------")
+        print("\n")
+        print("---+---+-------")
         print("   |   |       ")
         print("   |   +O      ")
         print("   | / | \     ")
@@ -126,8 +127,8 @@ while True:
         break
 
     if '_' not in correct:
-        print("HuRrAyYy!!! WELL DONE!")
-        print("\n-+-----------")
+        print("\nHuRrAyYy!!! WELL DONE!")
+        print("---+-----------")
         print("   |  YOU SAVED  ")
         print("   |     ME    ")
         print("   |    \O/    ")
