@@ -72,7 +72,7 @@ def hangman(tries):
       
     elif (tries == 6):
         print("\n2 tries left")
-        print("-+-----------")
+        print("-+---+-------")
         print(" |  \O/      ")
         print(" |   |       ")
         print(" |  / \      ")
@@ -80,7 +80,7 @@ def hangman(tries):
 
     elif (tries == 7):
         print("\n1 try left")
-        print("-+-----------")
+        print("-+---+-------")
         print(" |   |       ")
         print(" |  \O/      ")
         print(" |   |       ")

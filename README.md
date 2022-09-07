@@ -111,7 +111,6 @@ There are no unfixed bugs.
 
 ## Tools
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
-* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 
 ## Validation
 
