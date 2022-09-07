@@ -19,7 +19,7 @@ I have created this project to challenge my knowledge about the English words an
         * [Existing Features](#existing-features)
         * [Unfixed Bugs](#unfixed-bugs)
     * [Languages and Websites used](#languages-and-websites-used)
-        * [Languages that I used](#languages-that-i-used)
+        * [Language](#language)
         * [Tools](#tools)
     * [Testing](#testing)
         * [Validation](#validation)
@@ -108,13 +108,15 @@ I have manually drew the hangman and steps to complete this project so when I'm 
 
 There are no unfixed bugs.
 
-# Languages and Websites used
+# Language
 
-## Language that I have used
+Language that I have used for this project is:
 * [Python](https://www.python.org/ "Python")
 
 ## Tools
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
+
+# Testing
 
 ## Validation
 
